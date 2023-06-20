@@ -1,0 +1,90 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato";
+    font-weight: 400;
+    line-height: 1.8em;
+    color: rgb(163, 138, 186);
+}
+.img1{
+    background-image: url(image/img1.jpg);
+    min-height: 100%;
+    position: relative; /*for fixing(whole pic) the value of picture*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img2{
+    background-image: url(image/Img2.png);
+    min-height: 100%;position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img3{
+    background-image: url(image/img3.jpg);
+    min-height: 100%;position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 2px;
+   
+}
+#main{
+    background-color:white;
+    padding: 20px;
+    
+}
+.head{
+    padding: 50px 80px;
+    text-align: center;
+
+
+}
+#footer{
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+.text2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 2px;}
+    #main2{
+        background-color:white;
+        padding: 20px;
+        
+    }
+    .text3{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-size: 50px;
+        letter-spacing: 2px;}
+     #main3{
+            background-color:white;
+            padding: 20px;}
+#page1{
+    margin-top: 30px;
+    color: black;
+    
+}
